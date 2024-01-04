@@ -53,4 +53,40 @@
 .intro {
   max-width: none;
   line-height: var(--line-height-loose);
+  margin-bottom: var(--size-gap);
+}
+
+.container {
+  max-width: none;
+  line-height: var(--line-height-loose);
+  margin-bottom: var(--size-gap);
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideBySide {
+  /* width: 48%; */
+  border: solid 1px #e95800;
+}
+
+.container > div:nth-child(1) {
+  width: 40%;
+}
+
+.container > div:nth-child(2) {
+  width: 58%;
+}
+
+@media (max-width: 600px) { /* Adjust breakpoint as needed */
+  .container {
+      flex-direction: column;
+  }
+
+  .sideBySide {
+      width: 100%;
+  }
+}
+
+.imageContainer {
+  border: solid 1px #e95800;
 }
