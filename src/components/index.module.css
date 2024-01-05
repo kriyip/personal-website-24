@@ -94,6 +94,8 @@
 .aboutText > h1 {
   color: #e95800;
   font-family: 'Argon', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 6rem;
 }
 
@@ -105,8 +107,9 @@
 
 .sectionNumber {
   font-family: 'Fira Code', monospace;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #f2cd10; /* Light text color */
+  margin-bottom: 0;
 }
 
 .sectionTitle {
@@ -121,4 +124,10 @@
 .halfContainer {
   width: 50%;
   border: 1px solid #e95800;
+}
+
+.narrowContainer {
+  margin: 0 auto;
+  max-width: var(--size-content);
+  padding: var(--size-gutter);
 }

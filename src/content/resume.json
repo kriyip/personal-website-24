@@ -1,0 +1,173 @@
+{
+    "basics": {
+      "name": "Kristine Yip",
+      "email": "kyip@seas.upenn.com",
+      "summary": "A summary of Kristine Yip... [TODO]",
+      "location": {
+        "city": "Philadelphia",
+        "countryCode": "US",
+        "region": "Pennsylvania"
+      },
+      "profiles": [{
+        "network": "GitHub",
+        "username": "kriyip",
+        "url": "https://github.com/kriyip"
+      }]
+    },
+    "work": [{
+      "company": "Datadog",
+      "position": "SWE Intern",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        ""
+      ],
+      "future": true
+    },
+    {
+      "company": "Lockheed Martin",
+      "position": "Intern",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        ""
+      ],
+      "future": false
+    },
+    {
+      "company": "SecureFlow",
+      "position": "Frontend Web Developer - VIP Fellow",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        ""
+      ],
+      "future": false
+    },
+    {
+      "company": "Keye",
+      "position": "Frontend Web Developer - VIP Fellow",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        ""
+      ],
+      "future": false
+    },
+    {
+      "company": "EZ Learning LLC",
+      "position": "Tutor",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        ""
+      ],
+      "future": false
+    }
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "University of Pennsylvania",
+      "degree": "B.S.E. in Computer Science",
+      "startDate": "Sep-2021",
+      "endDate": "May-2025",
+      "GPA": "3.95",
+      "courses": [
+        {
+            "name": "Programming Languages and Techniques I (OOP)",
+            "code": "CIS1200",
+            "grade": "A"
+        },
+        {
+            "name": "Programming Languages and Techniques II (Algo. & Data Structures)",
+            "code": "CIS1210",
+            "grade": "A"
+        },
+        {
+            "name": "Algorithms",
+            "code": "CIS3200",
+            "grade": "A"
+        },
+        {
+            "name": "Scalable and Cloud Computing",
+            "code": "NETS2120",
+            "grade": "A"
+        },
+        {
+            "name": "Computer Systems Programming",
+            "code": "CIS2400",
+            "grade": "A"
+        },
+        {
+            "name": "Operating Systems",
+            "code": "CIS3800",
+            "grade": "A"
+        },
+        {
+            "name": "Software Design and Engineering",
+            "code": "CIS3500",
+            "grade": "in progress"
+        },
+        {
+            "name": "Computer and Network Security",
+            "code": "CIS3310",
+            "grade": "A"
+        },
+        {
+            "name": "Database and Information Systems",
+            "code": "CIS5500",
+            "grade": "in progress"
+        },
+        {
+            "name": "Introduction to Machine Learning",
+            "code": "CIS5190",
+            "grade": "A"
+        },
+        {
+            "name": "Introduction to Data Science",
+            "code": "CIS5450",
+            "grade": "A"
+        },
+        {
+            "name": "Rust Programming",
+            "code": "CIS1905",
+            "grade": "A"
+        },
+        {
+            "name": "Internet and Web Systems",
+            "code": "CIS5550",
+            "grade": "in progress"
+        },
+        {
+            "name": "Linear Algebra",
+            "code": "MATH2400",
+            "grade": "A"
+        }
+      ]
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }]
+  }

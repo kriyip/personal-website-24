@@ -5,11 +5,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import AboutSection from "../components/about"
 import ResumeSection from "../components/resume"
+import { graphql } from "gatsby"
 
-const SecondPage = () => (
+const SecondPage = ({ data }) => (
   <Layout>
-    <AboutSection />
-    <ResumeSection />
+    <AboutSection data={data.contentJson}/>
+    <ResumeSection data={data.contentJson}/>
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
@@ -17,5 +18,43 @@ const SecondPage = () => (
 )
 
 export const Head = () => <Seo title="Page two" />
+
+export const resumeQuery = graphql`
+query resumeQuery {
+    contentJson(basics: {}) {
+      basics {
+        summary
+        profiles {
+          network
+          url
+          username
+        }
+        name
+        email
+      }
+      education {
+        GPA
+        degree
+        endDate
+        institution
+        startDate
+        courses {
+          grade
+          code
+          name
+        }
+      }
+      work {
+        company
+        endDate
+        startDate
+        position
+        highlights
+        future
+        summary
+      }
+    }
+  }
+`
 
 export default SecondPage

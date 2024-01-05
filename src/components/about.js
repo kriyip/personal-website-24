@@ -2,12 +2,12 @@ import * as React from "react"
 import * as styles from "../components/index.module.css"
 
 // todo: move content into gatsby-config or json file thing
-const AboutSection = () => (
+const AboutSection = ({ data }) => (
     <div className={`${styles.container} ${styles.about}`}>
         <div className={`${styles.imageContainer}`}>div 1: image of myself</div>
         <div className={styles.aboutText}>
             <span className={styles.sectionNumber}>01. Hey, this website was made by...</span>
-            <h1>Kristine Yip</h1>
+            <h1>Kristine Yip.</h1>
             <p>I'm an aspiring software engineer that loves creating things. 
                 I was born and raised in the NYC metro area and I'm currently a
                 junior studying computer science at the University of Pennsylvania.
