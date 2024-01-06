@@ -1,19 +1,18 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import AboutSection from "../components/about"
 import ResumeSection from "../components/resume"
+import PortfolioSection from "../components/portfolio"
 import { graphql } from "gatsby"
 
 const SecondPage = ({ data }) => (
   <Layout>
     <AboutSection data={data.contentJson}/>
     <ResumeSection data={data.contentJson}/>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <PortfolioSection data={data.contentJson.featured_projects}/>
   </Layout>
 )
 
@@ -52,6 +51,14 @@ query resumeQuery {
         highlights
         future
         summary
+      }
+      featured_projects {
+        description
+        endDate
+        highlights
+        name
+        startDate
+        url
       }
     }
   }

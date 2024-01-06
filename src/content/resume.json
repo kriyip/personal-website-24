@@ -160,14 +160,94 @@
         }
       ]
     }],
-    "projects": [{
-      "name": "Project",
+    "featured-projects": [{
+      "name": "Project 1",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project 2",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project 3",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project 4",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project 5",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project 6",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project 7",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project 8",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+    {
+      "name": "Project 9",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
       "url": "https://project.com/"
     }]
-  }
+}

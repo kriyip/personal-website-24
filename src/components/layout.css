@@ -230,3 +230,6 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+footer {
+  color: #fff4db;
+}

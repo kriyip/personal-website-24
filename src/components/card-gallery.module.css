@@ -1,0 +1,104 @@
+.card {
+    background-color: #0e2341;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.27),
+                0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    width: 19rem;
+    height: 17rem;
+    padding: 0.2rem 1.25rem 1rem 1.25rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    background-color: #0c1d36;
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .cardTitle {
+    color: #d45d67;
+}
+
+@media (max-width: 1024px) {
+    .card {
+      /* Adjust styles for a 2-column layout if needed */
+    }
+}
+
+@media (max-width: 768px) {
+.card {
+    /* Adjust styles for a 1-column layout if needed */
+}
+}
+
+.cardTitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 1.2rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ccd6f6;
+    margin-bottom: 1rem;
+}
+
+.cardDescription {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #8892b0;
+}
+
+/* Custom dot colors */
+.slick-dots li button:before {
+    color: #ccc !important;
+}
+  
+.slick-dots li.slick-active button:before {
+    color: #e95800 !important;
+}
+
+/* CustomArrow.module.css */
+.customArrow {
+    background: transparent;
+    border: none;
+    color: #fff; /* Example color */
+    cursor: pointer;
+    /* Add any additional styling you want for the arrows */
+  }
+  
+  .customArrow:hover,
+  .customArrow:focus {
+    color: #ccc; /* Example hover color */
+    outline: none; /* Removes the outline on focus */
+  }
+  
+  .next {
+    /* Specific styles for the next arrow */
+    right: 25px; /* Adjust as necessary */
+  }
+  
+  .prev {
+    /* Specific styles for the prev arrow */
+    left: 25px; /* Adjust as necessary */
+  }
+  
+  /* You might need to adjust z-index to ensure the arrows are above other elements */
+  .customArrow {
+    z-index: 50;
+  }
+  
+  /* You might want to add media queries to adjust the positioning on smaller screens */
+  @media (max-width: 768px) {
+    .next, .prev {
+      right: 10px; /* Adjust as necessary for next arrow */
+      left: 10px; /* Adjust as necessary for prev arrow */
+    }
+  }
+  
