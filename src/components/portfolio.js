@@ -70,8 +70,8 @@ const ProjectCarousel = ({ projects }) => {
 
 const PortfolioSection = ({ data }) => {
     return (<div className={styles.narrowContainer}>
-        <div className={styles.aboutText}>
-            <span className={styles.sectionNumber}>03. </span><span className={styles.sectionTitle}>Portfolio</span>
+        <div className={`${styles.aboutText} ${styles.center}`}>
+            <span className={styles.sectionNumber}>03.</span><span className={styles.sectionTitle}>Portfolio</span>
             <p>A collection of things that I've worked on. View all projects [link]. </p>
         </div>
         <ProjectCarousel projects={data} />

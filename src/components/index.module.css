@@ -62,7 +62,7 @@
   margin-bottom: var(--size-gap);
   display: flex;
   justify-content: space-between;
-  background-color: #0a192f;
+  margin-top: var(--size-gap);
 }
 
 .container.about > div:nth-child(1) {
@@ -87,9 +87,11 @@
   border: solid 1px #e95800;
 }
 
-/* .aboutText {
-  border: solid 1px #e95800;
-} */
+.aboutText {
+  /* border: solid 1px #e95800; */
+  margin-bottom: var(--size-gutter);
+  margin-top: var(--size-gap);
+}
 
 .aboutText > h1 {
   color: #e95800;
@@ -105,6 +107,14 @@
   font-family: 'Fira Code', monospace;
 }
 
+.aboutText > p > a {
+  color: #e95800;
+}
+
+.aboutText > p > a:hover {
+  color: #159bf3;
+}
+
 .sectionNumber {
   font-family: 'Fira Code', monospace;
   font-size: 1rem;
@@ -113,7 +123,7 @@
 }
 
 .sectionTitle {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 0;
   margin-top: var(--space-1);
@@ -130,4 +140,150 @@
   margin: 0 auto;
   max-width: var(--size-content);
   padding: var(--size-gutter);
+}
+
+.resume  {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.center > * {
+  margin: 0 auto;
+}
+
+/* custom bullet points */
+ul.customBullets {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Reset padding, depending on your design */
+}
+
+ul.customBullets li {
+  position: relative; /* Establish a positioning context for pseudo-elements */
+  padding-left: 20px; /* Provide space for the custom bullet */
+  margin-bottom: 10px; /* Space between list items */
+  /* list-style: none;
+  margin-left: 1rem; */
+}
+
+ul.customBullets li:before {
+  content: ''; /* Necessary for :before to work */
+  position: absolute; /* Position the pseudo-element */
+  left: 0; /* Align to the left of the li */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Ensure it's centered regardless of line height */
+  border-top: 8px solid transparent; /* Top border transparent */
+  border-bottom: 8px solid transparent; /* Bottom border transparent */
+  border-left: 12px solid #8090c0; /* Left border colored, now the triangle points right */
+  /* Adjust the size of the triangle by changing the border sizes */
+}
+
+.customBullets h2 {
+  color: #a2abc5;
+  margin-left: 0.65rem;
+}
+
+.customBulletsText {
+  margin-left: 2rem;
+  color: #8892b0;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+.customBulletsText .sectionTitle {
+  font-size: 1.25rem;
+  color: #8892b0;
+}
+
+.titleLine {
+  /* flex-grow: 1; Makes the line take up the remaining space */
+  height: 2px; /* Sets the height of the line */
+  background-color: #8892b0; /* Color of the line */
+  max-width: 18%;
+  width: 60%;
+  margin-left: 0.2rem;
+}
+
+.titleLineLeft {
+    /* flex-grow: 1; Makes the line take up the remaining space */
+    height: 1.5px; /* Sets the height of the line */
+    background-color: #8892b0; /* Color of the line */
+    max-width: 9%;
+    width: 60%;
+    margin-right: 0.3rem;
+    margin-left: 1.8rem;
+    transition: font-size 0.55s, color 0.55s, transform 0.955s;
+}
+
+.lineContainer {
+  margin-bottom: 1.65rem;
+  display: flex;
+  align-items: center;
+}
+
+.lineContainer span {
+  color: #8892b0;
+  font-size: 0.85rem;
+  font-family: 'Fira Code', monospace;
+  margin-left: 0.5rem;
+  transition: font-size 0.55s, color 0.55s, transform 0.955s;
+}
+
+.lineContainer:hover .titleLineLeft {
+  background-color: white;
+  height: 1.75px;
+  max-width: 18%;
+}
+
+.lineContainer:hover span {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.activeSection span {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.activeSection .titleLineLeft {
+  background-color: white;
+  height: 1.75px;
+  max-width: 18%;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+}
+
+.container40 {
+  width: 40%;
+  text-align: right;
+  margin-right:0;
+  /* border: 1px solid #e95800; */
+}
+
+.container60 {
+  display: flex; /* Use flexbox to align children */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: flex-start; /* Align children to the start of the container horizontally */
+  width: 60%;
+  margin-bottom: 0;
+}
+
+.container60 h4 {
+  margin: 0; /* Remove default margins */
+
+}
+
+.container40 h4 {
+  margin: 0;
 }

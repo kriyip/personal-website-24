@@ -89,19 +89,39 @@
       "GPA": "3.95",
       "courses": [
         {
-            "name": "Programming Languages and Techniques I (OOP)",
-            "code": "CIS1200",
-            "grade": "A"
+          "name": "Internet & Web Systems",
+          "code": "CIS5550",
+          "grade": "in progress"
         },
         {
-            "name": "Programming Languages and Techniques II (Algo. & Data Structures)",
-            "code": "CIS1210",
-            "grade": "A"
+          "name": "Databases",
+          "code": "CIS5500",
+          "grade": "in progress"
         },
         {
-            "name": "Algorithms",
-            "code": "CIS3200",
-            "grade": "A"
+          "name": "Algorithms",
+          "code": "CIS3200",
+          "grade": "A"
+        },
+        {
+          "name": "OOP",
+          "code": "CIS1200",
+          "grade": "A"
+      },
+        {
+          "name": "Operating Systems",
+          "code": "CIS3800",
+          "grade": "A"
+        },
+        {
+          "name": "Algo. & Data Structures",
+          "code": "CIS1210",
+          "grade": "A"
+        },
+        {
+          "name": "Unix/Linux",
+          "code": "CIS1910",
+          "grade": "A"
         },
         {
             "name": "Scalable and Cloud Computing",
@@ -109,54 +129,55 @@
             "grade": "A"
         },
         {
-            "name": "Computer Systems Programming",
-            "code": "CIS2400",
-            "grade": "A"
-        },
-        {
-            "name": "Operating Systems",
-            "code": "CIS3800",
-            "grade": "A"
-        },
-        {
-            "name": "Software Design and Engineering",
+            "name": "Software Engineering",
             "code": "CIS3500",
             "grade": "in progress"
         },
         {
-            "name": "Computer and Network Security",
+          "name": "Rust",
+          "code": "CIS1905",
+          "grade": "A"
+        },
+        {
+          "name": "Applied Machine Learning",
+          "code": "CIS5190",
+          "grade": "A"
+        },
+        {
+          "name": "Big Data Analytics",
+          "code": "CIS5450",
+          "grade": "A"
+        },
+        {
+          "name": "TinyML",
+          "code": "ESE3600",
+          "grade": "A"
+        },
+        {
+            "name": "Networks Security",
             "code": "CIS3310",
             "grade": "A"
-        },
-        {
-            "name": "Database and Information Systems",
-            "code": "CIS5500",
-            "grade": "in progress"
-        },
-        {
-            "name": "Introduction to Machine Learning",
-            "code": "CIS5190",
-            "grade": "A"
-        },
-        {
-            "name": "Introduction to Data Science",
-            "code": "CIS5450",
-            "grade": "A"
-        },
-        {
-            "name": "Rust Programming",
-            "code": "CIS1905",
-            "grade": "A"
-        },
-        {
-            "name": "Internet and Web Systems",
-            "code": "CIS5550",
-            "grade": "in progress"
         },
         {
             "name": "Linear Algebra",
             "code": "MATH2400",
             "grade": "A"
+        },
+        
+        {
+          "name": "Probability",
+          "code": "STAT4300",
+          "grade": "A-"
+        },
+        {
+            "name": "Statistical Inference",
+            "code": "STAT4310",
+            "grade": "A"
+        },
+        {
+            "name": "Discrete Math",
+            "code": "CIS1600",
+            "grade": "B+"
         }
       ]
     }],

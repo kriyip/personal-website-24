@@ -1,11 +1,15 @@
 .timelineContainer {
     display: flex;
-    background-color: #0a192f;
+    background-color: #091527;
+    margin: var(--size-gutter);
     padding: var(--size-gutter);
     padding-left: 7rem;
     padding-right: 7rem;
     position: relative;
     align-items: flex-start;
+    border-radius: 10px;
+    /* sunken shadow */
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .timelineList {

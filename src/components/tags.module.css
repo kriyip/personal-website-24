@@ -1,0 +1,24 @@
+.tagContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.15rem;
+    padding: 0;
+    padding-top: 0.5rem;
+}
+
+.tag {
+    display: inline-block; /* Allows the element to have padding and margin */
+    background-color: #032b57; /* Replace with your preferred background color */
+    color: #0ee7ff; /* Text color */
+    padding: 5px 15px; /* Top/bottom, left/right padding */
+    margin: 5px; /* Spacing between tags */
+    border-radius: 15px; /* Fully rounded corners for pill-like tags */
+    font-size: 0.75rem; /* Text size */
+    font-weight: bold; /* Text weight */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+  
+.tag:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
