@@ -132,7 +132,7 @@ involving software development with AI/ML models, cloud infrastructure, and/or s
                         <div className={tagstyles.tagContainer}>
                             {/* create a span tag for each course */}
                             {Object.keys(courses).map((key) => (
-                                <span className={tagstyles.tag}>
+                                <span className={tagstyles.tag} key={key}>
                                     {courses[key]["name"]}
                                 </span>
                             ))}
@@ -187,7 +187,7 @@ involving software development with AI/ML models, cloud infrastructure, and/or s
                     <div className={sstyles.section} ref={workRef} >
                     <h3>WORK EXPERIENCE</h3>
                     {Object.keys(experiences).map((key) => (
-                        <div className={tstyles.expSection}>
+                        <div className={tstyles.expSection} key={key}>
                             <div className={tstyles.date}>{experiences[key].startDate} - {experiences[key].endDate}</div>
                             <h4>{experiences[key].company}, {experiences[key].position}</h4>
                             <p>{experiences[key].summary}</p>

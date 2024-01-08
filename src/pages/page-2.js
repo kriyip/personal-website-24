@@ -11,8 +11,8 @@ import { graphql } from "gatsby"
 const SecondPage = ({ data }) => (
   <Layout>
     <AboutSection data={data.contentJson}/>
-    <ResumeSection data={data.contentJson}/>
-    <PortfolioSection data={data.contentJson.featured_projects}/>
+    <ResumeSection data={data.contentJson} id="resume"/>
+    <PortfolioSection data={data.contentJson.featured_projects} id="portfolio"/>
   </Layout>
 )
 
