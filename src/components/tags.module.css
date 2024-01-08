@@ -16,9 +16,15 @@
     font-size: 0.75rem; /* Text size */
     font-weight: bold; /* Text weight */
     cursor: pointer; /* Changes cursor to a pointer on hover */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    transition: background-color 0.5s; /* Smooth transition for hover effect */
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
 }
   
 .tag:hover {
     background-color: #0056b3; /* Darker background on hover */
+}
+
+.narrow {
+    max-width: 80%;
+    width: 80%;
 }

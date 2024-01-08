@@ -1,10 +1,6 @@
 .timelineContainer {
     display: flex;
-    background-color: #091527;
-    margin: var(--size-gutter);
-    padding: var(--size-gutter);
-    padding-left: 7rem;
-    padding-right: 7rem;
+    /* background-color: #091527; */
     position: relative;
     align-items: flex-start;
     border-radius: 10px;
@@ -78,5 +74,20 @@
     font-family: 'Lato', sans-serif;
     color: #8892b0;
     font-weight: 300;
-    border: solid 1px #e90000;
+    /* border: solid 1px #e90000; */
+}
+
+.date {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    color: #a2abc5; /* Light text color */
+}
+
+.expSection h4 {
+    margin: 0;
+    margin-bottom:0.5rem;
+}
+
+.expSection {
+    margin-bottom: 4rem;
 }

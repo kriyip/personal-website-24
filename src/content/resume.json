@@ -17,9 +17,9 @@
     "work": [{
       "company": "Datadog",
       "position": "SWE Intern",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "startDate": "Sep 2024",
+      "endDate": "Dec 2025",
+      "summary": "Future internship at Datadog. To be updated.",
       "highlights": [
         ""
       ],
@@ -27,10 +27,10 @@
     },
     {
       "company": "Lockheed Martin",
-      "position": "Intern",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "position": "AI Research Engineer Intern",
+      "startDate": "May 2023",
+      "endDate": "Present",
+      "summary": "Worked closely with a senior researcher to develop a tactical agent in Pytorch for integration in an adaptive networking R&D project. Developed an autoencoder and performed sequence-based reinforcement learning using the decision transformer and perceiver IO models, experimenting with various LLMs (GPT2, GPT3, LLAMA 2) for the underlying transformer architecture. Read research papers and used legacy codebases to quickly implement experimental ideas to demonstrate proof of concept Participated in biweekly scrum meetings, presented product progress demos at end-of-sprint and quarterly meetings",
       "highlights": [
         ""
       ],
@@ -38,32 +38,28 @@
     },
     {
       "company": "SecureFlow",
-      "position": "Frontend Web Developer - VIP Fellow",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "position": "VIP Fellow - Frontend Web Developer",
+      "startDate": "Jan 2023",
+      "endDate": "May 2023",
+      "summary": "A program though Univ. of Penn's Venture Labs that matches students with an early-stage venture for one semester of work. Designed & developed a product landing page, identified & fixed UI/UX design bugs in the MVP using React Typescript with Tailwind CSS, and participated in design meetings with the startup's co-founders and CTO.",
       "highlights": [
         ""
       ],
       "future": false
     },
     {
-      "company": "Keye",
-      "position": "Frontend Web Developer - VIP Fellow",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        ""
-      ],
-      "future": false
+      "company": "The Daily Pennsylvanian",
+      "position": "Web Developer",
+      "startDate": "Jan 2023",
+      "endDate": "May 2023",
+      "summary": "Collaborated within a team of 3 to develop a new content recommendation engine for the DP's website. Developed the ML model using Gensim's Doc2Vec, trained, fine-tuned, and evaluated."
     },
     {
       "company": "EZ Learning LLC",
       "position": "Tutor",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "startDate": "Sep 2021",
+      "endDate": "May 2022",
+      "summary": "Tutored AP Calculus, AP Physics, and AP Computer Science to high school students in weekly meetings within both one-on- one and group settings",
       "highlights": [
         ""
       ],

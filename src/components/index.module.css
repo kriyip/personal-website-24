@@ -217,13 +217,14 @@ ul.customBullets li:before {
     width: 60%;
     margin-right: 0.3rem;
     margin-left: 1.8rem;
-    transition: font-size 0.55s, color 0.55s, transform 0.955s;
-}
+    transition: max-width 0.5s ease-in-out, height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  }
 
 .lineContainer {
   margin-bottom: 1.65rem;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .lineContainer span {
@@ -231,7 +232,7 @@ ul.customBullets li:before {
   font-size: 0.85rem;
   font-family: 'Fira Code', monospace;
   margin-left: 0.5rem;
-  transition: font-size 0.55s, color 0.55s, transform 0.955s;
+  transition: font-size 0.5s ease-in-out, color 0.5s ease-in-out, background-color 0.5s ease-in-out, height 0.5s ease-in-out;
 }
 
 .lineContainer:hover .titleLineLeft {
@@ -286,4 +287,40 @@ ul.customBullets li:before {
 
 .container40 h4 {
   margin: 0;
+}
+
+.hiddenContainer {
+  opacity: 0.75;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  color: #a1f6ff;
+  border-radius: 1rem;
+} 
+
+.hiddenContainer:hover  {
+  opacity: 1;
+  background-color: #032b57;
+}
+
+.circleBullets ul {
+  list-style-type: circle;
+}
+
+.circleBullets li {
+  position: relative;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.lightText {
+  color: #a5acc3;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
