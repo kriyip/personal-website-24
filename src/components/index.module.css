@@ -140,6 +140,7 @@
   margin: 0 auto;
   max-width: var(--size-content);
   padding: var(--size-gutter);
+  /* border: 1px solid #e95800; */
 }
 
 .resume  {
@@ -323,4 +324,23 @@ ul.customBullets li:before {
 
 .italic {
   font-style: italic;
+}
+
+.socialMediaBar {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+  gap: 2rem; /* Space between icons */
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+}
+
+.iconLink {
+  color: #a5acc3; /* Icon color */
+  font-size: 2rem; /* Icon size */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.iconLink:hover {
+  color: #ffff; /* Icon color on hover */
 }

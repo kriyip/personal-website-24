@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 import AboutSection from "../components/about"
 import ResumeSection from "../components/resume"
 import PortfolioSection from "../components/portfolio"
+import ContactSection from "../components/contact"
 import { graphql } from "gatsby"
 
 const SecondPage = ({ data }) => (
@@ -13,6 +14,7 @@ const SecondPage = ({ data }) => (
     <AboutSection data={data.contentJson}/>
     <ResumeSection data={data.contentJson} id="resume"/>
     <PortfolioSection data={data.contentJson.featured_projects} id="portfolio"/>
+    <ContactSection data={data.contentJson} id="contact"/>
   </Layout>
 )
 
