@@ -3,7 +3,7 @@ import * as styles from "./index.module.css";
 
 const ContactSection = ({ data }) => {
     return (
-        <div className={styles.narrowContainer}>
+        <div className={styles.narrowContainer} id="contact">
         <div className={`${styles.aboutText} ${styles.center}`}>
             <span className={styles.sectionNumber}>04.</span><span className={styles.sectionTitle}>Contact Me</span>
             <p><br></br>

@@ -77,7 +77,7 @@ const ResumeSection = ({ data }) => {
 
     return (
         // use padding on this outer div to make width of section smaller
-        <div className={`${styles.narrowContainer}`} style={{ paddingTop : `0`}}>
+        <div className={`${styles.narrowContainer}`} style={{ paddingTop : `0`}} id="resume">
             <div className={sstyles.container}>
                 <div className={sstyles.left}>
                     {/* changed from styles.aboutText */}

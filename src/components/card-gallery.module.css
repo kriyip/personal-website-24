@@ -13,13 +13,18 @@
 }
 
 .card:hover {
-    background-color: #0c1d36;
+    /* background-color: #0c1d36; */
+    background-color: #13294b;
     transform: translateY(-6px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover .cardTitle {
-    color: #d45d67;
+    color: white;
+}
+
+.card:hover .cardDescription {
+    color: #ccd6f6;
 }
 
 @media (max-width: 1024px) {

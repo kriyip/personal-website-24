@@ -1,14 +1,17 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import * as headerStyles from './header.module.css'
+import { Link as ScrollLink } from 'react-scroll';
 
 const Header = ({ siteTitle }) => {
   const [showNavbar, setShowNavbar] = React.useState(true);
   const [lastScrollY, setLastScrollY] = React.useState(0);
-  const scrollThreshold = 10;
+  const scrollThreshold = 0;
 
   const controlNavbar = () => {
     if (typeof window !== 'undefined') {
+      setShowNavbar(window.scrollY < 80);
+      
       // Calculate the scroll difference
       const scrollDiff = window.scrollY - lastScrollY;
 
@@ -54,6 +57,7 @@ const Header = ({ siteTitle }) => {
   // Handling navigation link click
   const handleNavClick = (e, id) => {
     e.preventDefault();
+    setShowNavbar(true);
     smoothScrollTo(id);
   };
 
@@ -63,14 +67,50 @@ const Header = ({ siteTitle }) => {
       <span className={`${headerStyles.navNumber}`}>01. </span>Home
     </Link>
     <nav>
+      <ScrollLink
+          activeClass="active"
+          to="resume"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={700}
+          className={headerStyles.navLink}
+        >
+          <span className={`${headerStyles.navNumber}`}>02. </span>Resume
+        </ScrollLink>
+        <ScrollLink
+          activeClass="active"
+          to="portfolio"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={700}
+          className={headerStyles.navLink}
+        >
+          <span className={`${headerStyles.navNumber}`}>03. </span>Projects
+        </ScrollLink>
+        <ScrollLink
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={700}
+          className={headerStyles.navLink}
+        >
+          <span className={`${headerStyles.navNumber}`}>04. </span>Contact
+        </ScrollLink>
+    </nav>
+    
+    {/* <nav>
       <a href='#resume' onClick={(e) => handleNavClick(e, 'resume')} className={`${headerStyles.navLink}`}>
         <span className={`${headerStyles.navNumber}`}>02. </span>
         Resume
       </a>
       <a href='#portfolio' onClick={(e) => handleNavClick(e, 'portfolio')} className={headerStyles.navLink}><span className={`${headerStyles.navNumber}`}>03. </span>Projects</a>
-      {/* <Link to='#blog' className={headerStyles.navLink}><span className={`${headerStyles.navNumber}`}>04. </span>Blog</Link> */}
+      <Link to='#blog' className={headerStyles.navLink}><span className={`${headerStyles.navNumber}`}>04. </span>Blog</Link>
       <a href='#contact' className={headerStyles.navLink}><span className={`${headerStyles.navNumber}`}>05. </span>Contact</a>
-    </nav>
+    </nav> */}
   </header>
   )
 }
