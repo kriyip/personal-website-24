@@ -9,24 +9,17 @@ const Header = ({ siteTitle }) => {
   const scrollThreshold = 0;
 
   const controlNavbar = () => {
-    if (typeof window !== 'undefined') {
-      setShowNavbar(window.scrollY < 80);
-      
-      // Calculate the scroll difference
-      const scrollDiff = window.scrollY - lastScrollY;
+    if (typeof window !== 'undefined') {      
+      const currentScrollY = window.scrollY;
 
-      // Check if the scroll is greater than the threshold
-      if (Math.abs(scrollDiff) > scrollThreshold) {
-        if (scrollDiff > 0) {
-          // Scrolling down
-          setShowNavbar(false);
-        } else {
-          // Scrolling up
-          setShowNavbar(true);
-        }
-        // Update the last scroll position
-        setLastScrollY(window.scrollY);
+      if (currentScrollY <= 80) {
+        setShowNavbar(true);
+      } else {
+        const scrollDiff = window.scrollY - lastScrollY;
+        setShowNavbar(scrollDiff > 0 ? false : true);
       }
+
+      setLastScrollY(currentScrollY);
     }
   };
 
