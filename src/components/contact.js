@@ -7,7 +7,7 @@ const ContactSection = ({ data }) => {
         <div className={`${styles.aboutText} ${styles.center}`}>
             <span className={styles.sectionNumber}>04.</span><span className={styles.sectionTitle}>Contact Me</span>
             <p><br></br>
-                Although I'm not currently actively searching for new jobs, but I'm always looking for new opportunities to
+                Although I'm not currently actively searching for new jobs, I'm always looking for new opportunities to
                 learn, grow, and connect with others. If any part of this website interests you, please feel free to
                 reach out!
             </p>

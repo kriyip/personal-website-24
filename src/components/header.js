@@ -6,7 +6,6 @@ import { Link as ScrollLink } from 'react-scroll';
 const Header = ({ siteTitle }) => {
   const [showNavbar, setShowNavbar] = React.useState(true);
   const [lastScrollY, setLastScrollY] = React.useState(0);
-  const scrollThreshold = 0;
 
   const controlNavbar = () => {
     if (typeof window !== 'undefined') {      
@@ -35,29 +34,20 @@ const Header = ({ siteTitle }) => {
 
   const handleHomeClick = (e) => {
     if (typeof window !== 'undefined' && window.location.pathname === '/') {
+      console.log("asljdfns");
       e.preventDefault();
-      window.location.scrollTo(0, 0);
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth' // Enables smooth scrolling
+      });
     }
   }
-
-  const smoothScrollTo = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
-  // Handling navigation link click
-  const handleNavClick = (e, id) => {
-    e.preventDefault();
-    setShowNavbar(true);
-    smoothScrollTo(id);
-  };
 
   return (
     <header className={`${headerStyles.header} ${showNavbar ? headerStyles.visible : headerStyles.hidden}`}>
     <Link to="/" className={headerStyles.navLink} onClick={handleHomeClick}>
-      <span className={`${headerStyles.navNumber}`}>01. </span>Home
+      <span className={`${headerStyles.navNumber}`}>01.</span>HOME
     </Link>
     <nav>
       <ScrollLink
@@ -69,7 +59,7 @@ const Header = ({ siteTitle }) => {
           duration={700}
           className={headerStyles.navLink}
         >
-          <span className={`${headerStyles.navNumber}`}>02. </span>Resume
+          <span className={`${headerStyles.navNumber}`}>02.</span>RESUME
         </ScrollLink>
         <ScrollLink
           activeClass="active"
@@ -80,7 +70,7 @@ const Header = ({ siteTitle }) => {
           duration={700}
           className={headerStyles.navLink}
         >
-          <span className={`${headerStyles.navNumber}`}>03. </span>Projects
+          <span className={`${headerStyles.navNumber}`}>03.</span>PROJECTS
         </ScrollLink>
         <ScrollLink
           activeClass="active"
@@ -91,7 +81,7 @@ const Header = ({ siteTitle }) => {
           duration={700}
           className={headerStyles.navLink}
         >
-          <span className={`${headerStyles.navNumber}`}>04. </span>Contact
+          <span className={`${headerStyles.navNumber}`}>04.</span>CONTACT
         </ScrollLink>
     </nav>
     

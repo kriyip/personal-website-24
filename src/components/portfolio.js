@@ -72,7 +72,7 @@ const PortfolioSection = ({ data }) => {
     return (<div className={styles.narrowContainer} style={{marginBottom: `7rem`}}>
         <div className={`${styles.aboutText} ${styles.center}`} id="portfolio">
             <span className={styles.sectionNumber}>03.</span><span className={styles.sectionTitle}>Portfolio</span>
-            <p>A collection of things that I've worked on. View all <a href="/projects">projects</a>.</p>
+            <p>A collection of things that I've worked on. View my projects on <a href="https://github.com/kriyip">Github</a>.</p>
         </div>
         <ProjectCarousel projects={data} />
     </div>)

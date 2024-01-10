@@ -84,7 +84,7 @@ const ResumeSection = ({ data }) => {
                     <div> 
                         <span className={styles.sectionNumber}>02.</span><span className={styles.sectionTitle}>Resume</span>
                     </div>
-                    <p>
+                    <p style={{ marginTop: `1rem`, marginBottom: `5rem`}}>
                     Feel free to contact me for my pdf resume.
                     </p>
 

@@ -2,11 +2,18 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Link } from "gatsby"
+import * as styles from "../components/404.module.css"
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className={styles.container}>
+      <div className={styles.centered}>
+        <h1>404: Not Found</h1>
+        <p>The route you're looking for doesn't seem to exist...</p>
+        <Link to ="/">Go back home</Link>
+      </div>
+    </div>
   </Layout>
 )
 

@@ -23,22 +23,31 @@
 }
 
 .navNumber {
-font-family: 'Fira Code', monospace;
-font-size: .7rem;
-color: #f2cd10; /* Light text color */
+    font-family: 'Fira Code', monospace;
+    font-size: .7rem;
+    color: #f2cd10; /* Light text color */
+    transition: color 0.3s ease-in-out;
 }
 
 .navLink {
-color: #8892b0; /* Light text color */
-text-decoration: none;
-margin-left: 1.2rem; /* Spacing between nav items */
-font-weight: bold;
-transition: color 0.3s ease-in-out;
-font-family: 'Argon', sans-serif;
-font-size: 1.1rem;
-cursor: pointer;
+    color: #8892b0; /* Light text color */
+    color: #c6ccdc;
+    text-decoration: none;
+    margin-left: 1.5rem; /* Spacing between nav items */
+    /* font-weight: bold;    */
+    transition: color 0.3s ease-in-out;
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 .navLink:hover {
-color: #ff6486; /* Highlight color on hover */
+    /* color: #ff6486; */
+    color: #e95800;
+    font-weight: bold;
+}
+
+.navLink:hover .navNumber {
+    color: #e95800;
+    font-weight: bold;
 }
