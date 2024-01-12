@@ -10,6 +10,7 @@
     padding: 0.2rem 1.25rem 1rem 1.25rem;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     cursor: pointer;
+    position: relative;
 }
 
 .card:hover {
@@ -20,7 +21,7 @@
 }
 
 .card:hover .cardTitle {
-    color: white;
+    color: var(--color-highlight);
 }
 
 .card:hover .cardDescription {
@@ -47,9 +48,10 @@
     font-weight: bold;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     color: #ccd6f6;
     margin-bottom: 1rem;
+    margin-top:0;
 }
 
 .cardDescription {
@@ -67,44 +69,27 @@
 }
   
 .slick-dots li.slick-active button:before {
-    color: #e95800 !important;
+    color: var(--color-primary) !important;
 }
 
-/* CustomArrow.module.css */
-.customArrow {
-    background: transparent;
-    border: none;
-    color: #fff; /* Example color */
-    cursor: pointer;
-    /* Add any additional styling you want for the arrows */
-  }
-  
-  .customArrow:hover,
-  .customArrow:focus {
-    color: #ccc; /* Example hover color */
-    outline: none; /* Removes the outline on focus */
-  }
-  
-  .next {
-    /* Specific styles for the next arrow */
-    right: 25px; /* Adjust as necessary */
-  }
-  
-  .prev {
-    /* Specific styles for the prev arrow */
-    left: 25px; /* Adjust as necessary */
-  }
-  
-  /* You might need to adjust z-index to ensure the arrows are above other elements */
-  .customArrow {
-    z-index: 50;
-  }
-  
-  /* You might want to add media queries to adjust the positioning on smaller screens */
-  @media (max-width: 768px) {
-    .next, .prev {
-      right: 10px; /* Adjust as necessary for next arrow */
-      left: 10px; /* Adjust as necessary for prev arrow */
-    }
-  }
-  
+.card:hover .icon {
+    color: var(--color-highlight);
+}
+
+.date {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.75rem;
+    /* color: #a2abc5; */
+    color: var(--color-highlight);
+    margin-top: 1.5rem;
+}
+
+.footer {
+    bottom: 1rem;
+    position: absolute;
+    opacity: 0.75;
+}
+
+.card:hover .footer {
+    opacity: 1;
+}

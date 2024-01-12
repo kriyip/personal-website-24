@@ -5,23 +5,26 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 
-// const CustomArrow = ({ className, style, onClick, direction }) => {
-//     return (
-//       <button
-//         className={`${className} ${cstyles.customArrow} ${cstyles[direction]}`}
-//         style={{ ...style, display: 'block' }}
-//         onClick={onClick}
-//       >
-//         {direction === 'next' ? '>' : '<'}
-//       </button>
-//     );
-// };
-
 const ProjectCard = ({ project }) => {
     return (
         <div className={cstyles.card}>
+          <div className={cstyles.date}>
+            {project.date}
+          </div>
+          <div className={styles.flexContainer}>
             <h3 className={cstyles.cardTitle}>{project.name}</h3>
-            <p className={cstyles.cardDescription}>{project.description}</p>
+            {/* <span className={`${styles.container40} ${cstyles.icon}`}><i className="fas fa-external-link-alt" style={{ marginRight: '1rem' }}></i></span> */}
+          </div>
+          <p className={cstyles.cardDescription}>{project.description}</p>
+          <div className={`${cstyles.date} ${cstyles.footer}`}>
+            {/* print separated by commas */}
+            {project.tech.map((tech, index) => (
+              <span key={tech}>
+                {tech}
+                {index < project.tech.length - 1 && ", "}
+              </span>
+            ))}
+          </div>
         </div>
     )
 }
@@ -72,7 +75,7 @@ const PortfolioSection = ({ data }) => {
     return (<div className={styles.narrowContainer} style={{marginBottom: `7rem`}}>
         <div className={`${styles.aboutText} ${styles.center}`} id="portfolio">
             <span className={styles.sectionNumber}>03.</span><span className={styles.sectionTitle}>Portfolio</span>
-            <p>A collection of things that I've worked on. View my projects on <a href="https://github.com/kriyip">Github</a>.</p>
+            <p>A collection of things that I've worked on. View my projects on <a href="https://github.com/kriyip" target="_blank" rel="noopener noreferrer">Github</a>.</p>
         </div>
         <ProjectCarousel projects={data} />
     </div>)

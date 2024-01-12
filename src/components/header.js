@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => {
   return (
     <header className={`${headerStyles.header} ${showNavbar ? headerStyles.visible : headerStyles.hidden}`}>
     <Link to="/" className={headerStyles.navLink} onClick={handleHomeClick}>
-      <span className={`${headerStyles.navNumber}`}>01.</span>HOME
+      <span className={`${headerStyles.navNumber}`}>01.</span>Home
     </Link>
     <nav>
       <ScrollLink
@@ -59,7 +59,7 @@ const Header = ({ siteTitle }) => {
           duration={700}
           className={headerStyles.navLink}
         >
-          <span className={`${headerStyles.navNumber}`}>02.</span>RESUME
+          <span className={`${headerStyles.navNumber}`}>02.</span>Resume
         </ScrollLink>
         <ScrollLink
           activeClass="active"
@@ -70,7 +70,7 @@ const Header = ({ siteTitle }) => {
           duration={700}
           className={headerStyles.navLink}
         >
-          <span className={`${headerStyles.navNumber}`}>03.</span>PROJECTS
+          <span className={`${headerStyles.navNumber}`}>03.</span>Projects
         </ScrollLink>
         <ScrollLink
           activeClass="active"
@@ -81,7 +81,7 @@ const Header = ({ siteTitle }) => {
           duration={700}
           className={headerStyles.navLink}
         >
-          <span className={`${headerStyles.navNumber}`}>04.</span>CONTACT
+          <span className={`${headerStyles.navNumber}`}>04.</span>Contact
         </ScrollLink>
     </nav>
     

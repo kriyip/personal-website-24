@@ -14,16 +14,15 @@
 .centered h1 {
     font-size: 4.5rem;
     margin-bottom: 0;
-    color: #e95800;
+    color: var(--color-primary);
 }
 
 .centered a {
-    text-decoration: none;
     font-weight: 600;
+    color: var(--color-text-medium);
 }
 
 .centered a:hover {
-    color: #f0ecec;
-    text-decoration: underline;
+    color: var(--color-text-bright);
     font-weight: bold;
 }

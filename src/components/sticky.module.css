@@ -1,13 +1,11 @@
 .container {
     display: flex;
-    /* border: 1px solid #e95800; */
     margin-bottom: 0;
 }
 
 .left {
     flex: 1;
     width: 30%;
-    /* border: 1px solid #e95800; */
     top: 0;
     position: sticky;
     height: 80vh;
@@ -18,7 +16,6 @@
 .right {
     flex: 1;
     width: 70%;
-    /* border: 1px solid #e95800; */
     padding-top: var(--size-gap);
     /* padding-bottom: 10rem; */
 }
@@ -26,13 +23,13 @@
 .container p {
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
-    color: #eeeeeeeb;
+    color: var(--color-text-light);
 }
 
 .left p {
     font-size: 0.85rem;
     font-family: 'Fira Code', monospace;
-    color: #eeeeeeeb;
+    color: var(--color-text-light);
     padding-left: 1.8rem;
     padding-bottom: 2.5rem;
     padding-top: 0rem;
@@ -42,22 +39,21 @@
 .right .section {
     margin-bottom: var(--size-gap);
     margin-top: var(--size-gap);
-    color: #eeeeeeeb;
+    color: var(--color-text-light);
 }
 
 .right .section h3 {
-    color: #eeeeeeeb;
-    /* font-family: 'Argon', sans-serif; */
+    color: var(--color-text-light);
     font-family: 'Fira Code', monospace;
 }
 
 .right .section {
-    color: #c2c9e0;
+    color: var(--color-text-medium);
     /* font-family: 'Fira Code', monospace; */
 }
 
 .right .section p {
-    color: #afb7d5;
+    color: var(--color-text-dark);
     font-family: 'Lato', sans-serif;
 }
 

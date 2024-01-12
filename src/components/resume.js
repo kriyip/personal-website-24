@@ -107,9 +107,10 @@ const ResumeSection = ({ data }) => {
                 <div className={sstyles.right}>
                     <div className={sstyles.section} ref={summaryRef} >
                     <h3>SUMMARY</h3>
-                    Third-year CS student at UPenn with skills and experience in creating software products using AI & data. I have research and software development experience in an AGILE dynamic environment with a demonstrated ability to work effectively and collaboratively in high pressure situations while handling multiple high priority tasks simultaneously. I am broadly interested in and looking for an internship
-involving software development with AI/ML models, cloud infrastructure, and/or systems level programming.
-
+                    I'm currently a third-year computer science student at the University of Pennsylvania with strong interests in systems
+                    programming, distributed systems, and full-stack web development. I've had the privilege to work in a variety of environments ranging from
+                    dynamic startups to large corporations in both research and software development roles. I've worked on a variety of projects ranging from
+                    reinforcement learning and natural language processing to web development and distributed systems.
                     </div>
 
                     <div className={sstyles.section} ref={educationRef} >
@@ -146,12 +147,16 @@ involving software development with AI/ML models, cloud infrastructure, and/or s
                             <span className={tagstyles.tag}>Rust</span>
                             <span className={tagstyles.tag}>C</span>
                             <span className={tagstyles.tag}>Java</span>
-                            <span className={tagstyles.tag}>Bash</span>
-                            <span className={tagstyles.tag}>Javascript</span>
-                            <span className={tagstyles.tag}>Typescript</span>
+                        </div>
+                        <div className={`${tagstyles.tagContainer} ${tagstyles.narrow}`}>
                             <span className={tagstyles.tag}>Python</span>
                             <span className={tagstyles.tag}>SQL</span>
                             <span className={tagstyles.tag}>R</span>
+                            <span className={tagstyles.tag}>Bash</span>
+                        </div>
+                        <div className={`${tagstyles.tagContainer} ${tagstyles.narrow}`}>
+                            <span className={tagstyles.tag}>Javascript</span>
+                            <span className={tagstyles.tag}>Typescript</span>
                         </div>
                         <br></br>
                         <h4>Libraries, Frameworks, Tools</h4>
@@ -189,32 +194,18 @@ involving software development with AI/ML models, cloud infrastructure, and/or s
                     {Object.keys(experiences).map((key) => (
                         <div className={tstyles.expSection} key={key}>
                             <div className={tstyles.date}>{experiences[key].startDate} - {experiences[key].endDate}</div>
-                            <h4>{experiences[key].company}, {experiences[key].position}</h4>
-                            <p>{experiences[key].summary}</p>
+                            <h4>{experiences[key].company} &middot; {experiences[key].position}</h4>
+                            <p style={{ color: '#c2c9e0'}}>{experiences[key].summary}</p>
+                            {/* list highlights if they exist as bullet points */}
+                            {experiences[key].highlights && (
+                                <ul className={styles.circleBullets}>
+                                    {experiences[key].highlights.map((highlight, index) => (
+                                        <li key={index} style={{ color: '#afbccb'}}>{highlight}</li>
+                                    ))}
+                                </ul>
+                            )}
                         </div>
                     ))}
-                    
-
-                    {/* <div className={tstyles.timelineContainer}>
-                        <div className={tstyles.timelineList}>
-                            {Object.keys(experiences).map((key) => (
-                                <div key={experiences[key].company}
-                                    className={`${tstyles.listItem} ${activeExp === key ? tstyles.listItemActive : ""}`}
-                                    onClick={() => setActiveExp(key)}
-                                >
-                                    {experiences[key].company}
-                                </div>
-                            ))}
-                        </div>
-                        <div className={tstyles.timelineContent}>
-                            <h3>{experiences[activeExp].company}</h3>
-                            <h4>{experiences[activeExp].position}</h4>
-                            <p>{experiences[activeExp].startDate} - {experiences[activeExp].endDate}</p>
-                            <p>{experiences[activeExp].summary}</p>
-                            <p>{experiences[activeExp].summary}</p>
-                            <p>{experiences[activeExp].summary}</p>
-                        </div>
-                    </div> */}
                     </div>
                 </div>
             </div>

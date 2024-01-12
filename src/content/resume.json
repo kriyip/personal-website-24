@@ -19,31 +19,32 @@
       "position": "SWE Intern",
       "startDate": "Sep 2024",
       "endDate": "Dec 2025",
-      "summary": "Future internship at Datadog. To be updated.",
-      "highlights": [
-        ""
-      ],
+      "summary": "Future internship at Datadog during the fall of 2025. To be updated.",
       "future": true
     },
     {
-      "company": "Lockheed Martin",
+      "company": "Lockheed Martin Space",
       "position": "AI Research Engineer Intern",
       "startDate": "May 2023",
       "endDate": "Present",
-      "summary": "Worked closely with a senior researcher to develop a tactical agent in Pytorch for integration in an adaptive networking R&D project. Developed an autoencoder and performed sequence-based reinforcement learning using the decision transformer and perceiver IO models, experimenting with various LLMs (GPT2, GPT3, LLAMA 2) for the underlying transformer architecture. Read research papers and used legacy codebases to quickly implement experimental ideas to demonstrate proof of concept Participated in biweekly scrum meetings, presented product progress demos at end-of-sprint and quarterly meetings",
+      "summary": "Internship during the summer of 2023 and 2024, with part-time work during the 2023-2024 school year",
       "highlights": [
-        ""
+        "Developed a reinforcement learning agent in Pytorch for integration in an adaptive networking R&D project",
+        "Researched and implemented a decision transformer and perceiver IO model for sequence-based reinforcement learning. Compared the performance of various LLMs (GPT2, GPT3, LLAMA2) for the underlying transformer architecture",
+        "Read research papers and used legacy codebases to quickly implement experimental ideas to demonstrate proof of concept",
+        "Participated in regular scrum meetings, responsible for presenting progress demos at end-of-sprint and quarterly meetings"
       ],
       "future": false
     },
     {
       "company": "SecureFlow",
-      "position": "VIP Fellow - Frontend Web Developer",
+      "position": "Frontend Web Developer",
       "startDate": "Jan 2023",
       "endDate": "May 2023",
-      "summary": "A program though Univ. of Penn's Venture Labs that matches students with an early-stage venture for one semester of work. Designed & developed a product landing page, identified & fixed UI/UX design bugs in the MVP using React Typescript with Tailwind CSS, and participated in design meetings with the startup's co-founders and CTO.",
+      "summary": "Part time work at an early-stage venture, orchestrated through UPenn's Venture Initiation Program",
       "highlights": [
-        ""
+        "Responsible for fixing bug tickets in the product MVP using React Typescript with Tailwind CSS and graphql",
+        "Participated in regular meetings with the startup co-founders to design and implement a product landing page"
       ],
       "future": false
     },
@@ -52,17 +53,14 @@
       "position": "Web Developer",
       "startDate": "Jan 2023",
       "endDate": "May 2023",
-      "summary": "Collaborated within a team of 3 to develop a new content recommendation engine for the DP's website. Developed the ML model using Gensim's Doc2Vec, trained, fine-tuned, and evaluated."
+      "summary": "Worked in a team of 3 to develop a new content recommendation engine for the DP's website. Responsible for training, fine-tuning, and evaluating the ML model using Gensim's Doc2Vec in Python."
     },
     {
       "company": "EZ Learning LLC",
       "position": "Tutor",
       "startDate": "Sep 2021",
       "endDate": "May 2022",
-      "summary": "Tutored AP Calculus, AP Physics, and AP Computer Science to high school students in weekly meetings within both one-on- one and group settings",
-      "highlights": [
-        ""
-      ],
+      "summary": "Tutored AP Calculus, AP Physics, and AP Computer Science to high school students in weekly meetings within both one-on-one and group settings",
       "future": false
     }
     ],
@@ -178,93 +176,90 @@
       ]
     }],
     "featured-projects": [{
-      "name": "Project 1",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
+      "name": "PennOS",
+      "date": "Oct-Dec 2023",
+      "description": "A functional Linux-style operating system written in C. Implements a shell, FAT file system, and priority-based round-robin process scheduler while maintaining user/kernel-level abstractions.",
+      "url": "Source code is private. Contact me for more information.",
+      "tech": ["C", "Linux", "Docker"]
     },
     {
-      "name": "Project 2",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "name": "Covid Stock Analysis",
+      "date": "May 2023",
+      "description": "A data analysis project that explores the relationship between COVID-19 and the stock market. Uses data from the COVID Tracking Project and Yahoo Finance to analyze the correlation between COVID-19 cases and stock prices.",
+      "tech": [
+        "Python", "Pytorch", "Pandas", "Plotly", "Matplotlib"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/kriyip/covid-stock-analysis"
     },
     {
-      "name": "Project 3",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
+      "name": "PennBook",
+      "date": "Nov-Dec 2022",
+      "description": "A Facebook-like social media web application containing user profiles, posts, chatrooms, newsfeeds, search functionality, friend networks, and infinite scrolling.",
+      "url": "https://github.com/kriyip/PennBook/",
+      "tech": ["Java", "JS", "EJS", "HTML/CSS", "AWS", "EMR"]
     },
     {
-      "name": "Project 4",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "name": "Personal Website",
+      "date": "Jan 2024",
+      "description": "A personal website built with Gatsby and hosted with Vercel.",
+      "tech": [
+        "Gatsby", "JS", "HTML/CSS", "graphql"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/kriyip/personal-website-24"
     },
     {
-      "name": "Project 5",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "name": "Gesture Controlled Robot",
+      "date": "Nov-Dec 2022",
+      "description": "A robot controlled by custom hand gestures. Uses a publisher-subscriber model between multiple Arduino BLEs and a custom-trained ML model for gesture-classification.",
+      "tech": [
+        "Arduino", "C++", "Python", "Tensorflow"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/kriyip/Gesture-Controlled-Robot"
     },
     {
-      "name": "Project 6",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "name": "Distributed File System",
+      "date": "Nov-Dec 2023",
+      "description": "A distributed file system that supports file storage, retrieval, deletion, and replication across multiple servers. Uses gRPC for communication between servers and clients.",
+      "tech": [
+        "Rust", "gRPC", "Protocol Buffers"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/liamd101/kl-dfs"
     },
     {
-      "name": "Project 7",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "name": "Chat GPTerminal",
+      "date": "May 2023",
+      "description": "A lightweight shell program for using OpenAI's GPT-3.5-turbo model from the command line. Contains custom initializations for writing/explaining code.",
+      "tech": [
+        "Bash"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/kriyip/Chat-GPTerminal"
     },
     {
-      "name": "Project 8",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "name": "Health Data Analysis",
+      "date": "Dec 2023",
+      "description": "A data analysis project exploring the socioeconomic factors that influence county-level health outcomes.",
+      "tech": [
+        "Python", "Pandas", "Matplotlib", "SNS"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/kriyip/health-data-analysis"
     },
     {
-      "name": "Project 9",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis hendrerit ex. Aliquam malesuada, sem quis lacinia molestie, ipsum nunc molestie mi, vitae imperdiet turpis leo eget massa. Aliquam lacinia ultricies facilisis. Maecenas id lectus sed massa malesuada dictum. Aenean bibendum lacus vitae dui facilisis dignissim. Donec consectetur lacinia ex, sed rutrum urna finibus eget. Mauris euismod ac leo a pretium. Vivamus in massa a dui finibus tristique. Sed velit lectus, laoreet quis justo ac, hendrerit suscipit nulla. Mauris euismod, dolor quis sagittis fermentum, neque mauris sagittis odio, non rhoncus augue est eget velit. Nunc hendrerit ultrices malesuada. Vestibulum ultrices erat eget ligula mattis elementum. Cras pretium felis non purus finibus laoreet. Mauris feugiat, mauris quis condimentum scelerisque, arcu arcu rhoncus ipsum, vitae bibendum tellus nulla ut tortor. Nulla scelerisque, metus at feugiat dapibus, arcu nisl porttitor dolor, non dapibus quam neque a ipsum. Curabitur at tellus id magna pulvinar mattis sed eu leo.      ",
-      "highlights": [
-        "Won award at AIHacks 2016"
+      "name": "HTTP Server",
+      "date": "Jan 2024",
+      "description": "Currently a WIP. A multithreaded HTTP server that supports GET, POST, and HEAD requests. Supports persistent connections and pipelining.",
+      "tech": [
+        "Rust", "HTTP"
       ],
-      "url": "https://project.com/"
-    }]
+      "url": ""
+    },
+    {
+      "name": "Websocket Chatrooms",
+      "date": "Dec 2023 - Jan 2024",
+      "description": "Currently a WIP. A websocket-based chatroom application that supports multiple chatrooms and private messaging.",
+      "tech": [
+        "Rust", "Websockets"
+      ],
+      "url": "https://github.com/kriyip/websocket-chats"
+    }
+  ]
 }

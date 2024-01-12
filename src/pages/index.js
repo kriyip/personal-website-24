@@ -54,10 +54,9 @@ query resumeQuery {
       }
       featured_projects {
         description
-        endDate
-        highlights
+        tech
         name
-        startDate
+        date
         url
       }
     }

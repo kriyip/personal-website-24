@@ -33,7 +33,7 @@
 
 /* active list item style */
 .listItem:hover {
-    color: #e95800;
+    color: var(--color-primary);
 }
 
 .listItemActive {
@@ -62,8 +62,7 @@
     width: 10px; /* Circle size */
     height: 10px; /* Circle size */
     border-radius: 50%;
-    background: #0a192f; /* Default background color */
-    border: 2px solid #e95800; /* Default border color, change if needed */
+    border: 2px solid var(--color-primary); /* Default border color, change if needed */
     z-index: 1;
 }
 
@@ -80,12 +79,15 @@
 .date {
     font-family: 'Fira Code', monospace;
     font-size: 0.9rem;
-    color: #a2abc5; /* Light text color */
+    /* color: #a2abc5; Light text color */
+    color: var(--color-highlight);
 }
+/* 0056b3 */
 
 .expSection h4 {
     margin: 0;
     margin-bottom:0.5rem;
+    color: var(--color-text-light);
 }
 
 .expSection {
