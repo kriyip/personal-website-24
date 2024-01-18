@@ -12,12 +12,23 @@ const ProjectCard = ({ project }) => {
             {project.date}
           </div>
           <div className={styles.flexContainer}>
-            <h3 className={cstyles.cardTitle}>{project.name}</h3>
-            {/* <span className={`${styles.container40} ${cstyles.icon}`}><i className="fas fa-external-link-alt" style={{ marginRight: '1rem' }}></i></span> */}
+            {project.hasUrl ? (
+              <a href={project.url} className={cstyles.url} target="_blank" rel="noopener noreferrer">
+                  <h3 className={cstyles.cardTitle}>{project.name}</h3>
+              </a>
+            ) : (
+              <h3 className={cstyles.cardTitle}>{project.name}</h3>
+            )}
           </div>
           <p className={cstyles.cardDescription}>{project.description}</p>
+
+          {!project.hasUrl && (
+              <p className={cstyles.noUrlMessage}>
+                  Source code is currently private. Contact me for more information.
+              </p>
+          )}
+
           <div className={`${cstyles.date} ${cstyles.footer}`}>
-            {/* print separated by commas */}
             {project.tech.map((tech, index) => (
               <span key={tech}>
                 {tech}

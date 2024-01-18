@@ -5,10 +5,13 @@
   --color-text-medium: #c2c9e0;
   --color-text-dark: #afbccb;
   --color-primary: #e95800;
-  --color-secondary: #f2cd10;
+  --color-secondary: #F3DE8A;
   --color-highlight: #a1f6ff;
+  --color-tag: #0056b3;
+  --color-tag-text: #AEF3E7;
   --color-bg: #0a192f;
   /* ff6486 */
+  /* a1f6ff, e95800, f2cd10, D7C0D0, FFF9A5 */
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
@@ -59,6 +62,7 @@ body {
 a {
   background-color: transparent;
   color: var(--color-secondary);
+  opacity: 0.85;
   text-decoration: none;
   font-weight: 500;
   text-decoration: underline;
@@ -70,6 +74,7 @@ a:hover {
   outline-width: 0;
   text-decoration: none;
   color: #159bf3;
+  opacity: 1;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);

@@ -6,10 +6,12 @@ import { Link as ScrollLink } from 'react-scroll';
 const Header = ({ siteTitle }) => {
   const [showNavbar, setShowNavbar] = React.useState(true);
   const [lastScrollY, setLastScrollY] = React.useState(0);
+  const [isTop, setIsTop] = React.useState(true);
 
   const controlNavbar = () => {
     if (typeof window !== 'undefined') {      
       const currentScrollY = window.scrollY;
+      setIsTop(currentScrollY === 0);
 
       if (currentScrollY <= 80) {
         setShowNavbar(true);
@@ -45,7 +47,7 @@ const Header = ({ siteTitle }) => {
   }
 
   return (
-    <header className={`${headerStyles.header} ${showNavbar ? headerStyles.visible : headerStyles.hidden}`}>
+    <header className={`${headerStyles.header} ${showNavbar ? headerStyles.visible : headerStyles.hidden} ${isTop ? headerStyles.noBoxShadow : ''}`}>
     <Link to="/" className={headerStyles.navLink} onClick={handleHomeClick}>
       <span className={`${headerStyles.navNumber}`}>01.</span>Home
     </Link>
@@ -85,15 +87,6 @@ const Header = ({ siteTitle }) => {
         </ScrollLink>
     </nav>
     
-    {/* <nav>
-      <a href='#resume' onClick={(e) => handleNavClick(e, 'resume')} className={`${headerStyles.navLink}`}>
-        <span className={`${headerStyles.navNumber}`}>02. </span>
-        Resume
-      </a>
-      <a href='#portfolio' onClick={(e) => handleNavClick(e, 'portfolio')} className={headerStyles.navLink}><span className={`${headerStyles.navNumber}`}>03. </span>Projects</a>
-      <Link to='#blog' className={headerStyles.navLink}><span className={`${headerStyles.navNumber}`}>04. </span>Blog</Link>
-      <a href='#contact' className={headerStyles.navLink}><span className={`${headerStyles.navNumber}`}>05. </span>Contact</a>
-    </nav> */}
   </header>
   )
 }

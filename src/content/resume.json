@@ -178,9 +178,10 @@
     "featured-projects": [{
       "name": "PennOS",
       "date": "Oct-Dec 2023",
-      "description": "A functional Linux-style operating system written in C. Implements a shell, FAT file system, and priority-based round-robin process scheduler while maintaining user/kernel-level abstractions.",
-      "url": "Source code is private. Contact me for more information.",
-      "tech": ["C", "Linux", "Docker"]
+      "description": "A functional Linux-style operating system written in C. Implements a shell, FAT file system, and priority-based round-robin process scheduler with user/kernel-level abstractions.",
+      "url": "https://github.com/kriyip",
+      "tech": ["C", "Linux", "Docker"],
+      "hasUrl": false
     },
     {
       "name": "Covid Stock Analysis",
@@ -189,14 +190,16 @@
       "tech": [
         "Python", "Pytorch", "Pandas", "Plotly", "Matplotlib"
       ],
-      "url": "https://github.com/kriyip/covid-stock-analysis"
+      "url": "https://github.com/kriyip/covid-stock-analysis",
+      "hasUrl": true
     },
     {
       "name": "PennBook",
       "date": "Nov-Dec 2022",
       "description": "A Facebook-like social media web application containing user profiles, posts, chatrooms, newsfeeds, search functionality, friend networks, and infinite scrolling.",
       "url": "https://github.com/kriyip/PennBook/",
-      "tech": ["Java", "JS", "EJS", "HTML/CSS", "AWS", "EMR"]
+      "tech": ["Java", "JS", "EJS", "HTML/CSS", "AWS", "EMR"],
+      "hasUrl": true
     },
     {
       "name": "Personal Website",
@@ -205,7 +208,8 @@
       "tech": [
         "Gatsby", "JS", "HTML/CSS", "graphql"
       ],
-      "url": "https://github.com/kriyip/personal-website-24"
+      "url": "https://github.com/kriyip/personal-website-24",
+      "hasUrl": true
     },
     {
       "name": "Gesture Controlled Robot",
@@ -214,7 +218,8 @@
       "tech": [
         "Arduino", "C++", "Python", "Tensorflow"
       ],
-      "url": "https://github.com/kriyip/Gesture-Controlled-Robot"
+      "url": "https://github.com/kriyip/Gesture-Controlled-Robot",
+      "hasUrl": true
     },
     {
       "name": "Distributed File System",
@@ -223,7 +228,8 @@
       "tech": [
         "Rust", "gRPC", "Protocol Buffers"
       ],
-      "url": "https://github.com/liamd101/kl-dfs"
+      "url": "https://github.com/liamd101/kl-dfs",
+      "hasUrl": true
     },
     {
       "name": "Chat GPTerminal",
@@ -232,7 +238,8 @@
       "tech": [
         "Bash"
       ],
-      "url": "https://github.com/kriyip/Chat-GPTerminal"
+      "url": "https://github.com/kriyip/Chat-GPTerminal",
+      "hasUrl": true
     },
     {
       "name": "Health Data Analysis",
@@ -241,7 +248,8 @@
       "tech": [
         "Python", "Pandas", "Matplotlib", "SNS"
       ],
-      "url": "https://github.com/kriyip/health-data-analysis"
+      "url": "https://github.com/kriyip/health-data-analysis",
+      "hasUrl": true
     },
     {
       "name": "HTTP Server",
@@ -250,7 +258,8 @@
       "tech": [
         "Rust", "HTTP"
       ],
-      "url": ""
+      "url": "",
+      "hasUrl": false
     },
     {
       "name": "Websocket Chatrooms",
@@ -259,7 +268,8 @@
       "tech": [
         "Rust", "Websockets"
       ],
-      "url": "https://github.com/kriyip/websocket-chats"
+      "url": "https://github.com/kriyip/websocket-chats",
+      "hasUrl": true
     }
   ]
 }

@@ -1,11 +1,14 @@
 import * as React from "react"
 import * as styles from "../components/index.module.css"
+import selfImage from '../images/self.png';
 
 // todo: move content into gatsby-config or json file thing
 const AboutSection = ({ data }) => (
     <div className={`${styles.container} ${styles.about}`}>
         <div className={`${styles.imageContainer}`}>
             {/* image of self here */}
+            <img src={selfImage} alt="Kristine Yip" className={styles.img}></img>
+
         </div>
         <div className={styles.aboutText}>
             <span className={styles.sectionNumber}>01. Hey, this website was made by...</span>

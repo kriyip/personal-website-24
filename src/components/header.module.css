@@ -34,7 +34,8 @@
 .navLink {
     /* color: #8892b0; Light text color */
     /* color: #c6ccdc; */
-    color: var(--color-text-light);
+    /* color: var(--color-text-light); */
+    color: white;
     text-decoration: none;
     margin-left: 1.5rem; /* Spacing between nav items */
     transition: color 0.3s ease-in-out;
@@ -47,11 +48,17 @@
 
 .navLink:hover {
     /* color: var(--color-primary); */
-    color: var(--color-text-light);
+    /* color: var(--color-text-light); */
+    color: white;
     font-weight: bold;
 }
 
 .navLink:hover .navNumber {
     color: var(--color-secondary);
     font-weight: bold;
+    opacity: 1;
+}
+
+.noBoxShadow {
+    box-shadow: none;
 }

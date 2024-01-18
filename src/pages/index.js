@@ -58,6 +58,7 @@ query resumeQuery {
         name
         date
         url
+        hasUrl
       }
     }
   }

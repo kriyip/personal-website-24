@@ -273,3 +273,11 @@
 .iconLink:hover {
   color: #ffff; /* Icon color on hover */
 }
+
+.img {
+  width: 85%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.35);
+}
