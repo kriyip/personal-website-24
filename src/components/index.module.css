@@ -76,16 +76,27 @@
 }
 
 .aboutText {
-  margin-bottom: var(--size-gutter);
-  margin-top: var(--size-gap);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.fullHeight {
+  height: 100vh;
+}
+
+/* .aboutText > span {
+  margin-top: var(--size-gutter);
+} */
 
 .aboutText > h1 {
   color: var(--color-primary);
   font-family: 'Argon', sans-serif;
   margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 6rem;
+  margin-bottom: var(--size-gutter);
+  font-size: 9rem;
 }
 
 .aboutText > p {
@@ -199,6 +210,7 @@
   width: 40%;
   text-align: right;
   margin-right:0;
+  font-style: italic;
 }
 
 .container60 {

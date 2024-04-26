@@ -19,7 +19,7 @@
       "position": "SWE Intern",
       "startDate": "Sep 2024",
       "endDate": "Dec 2025",
-      "summary": "Future internship at Datadog during the fall of 2025. To be updated.",
+      "summary": "Future internship at Datadog during the Fall of 2025 related to distributed systems programming. Will be updated.",
       "future": true
     },
     {
@@ -202,14 +202,12 @@
       "hasUrl": true
     },
     {
-      "name": "Personal Website",
-      "date": "Jan 2024",
-      "description": "A personal website built with Gatsby and hosted with Vercel.",
-      "tech": [
-        "Gatsby", "JS", "HTML/CSS", "graphql"
-      ],
-      "url": "https://github.com/kriyip/personal-website-24",
-      "hasUrl": true
+      "name": "Zoogle",
+      "date": "Apr-May 2024",
+      "description": "A search engine. Uses a web crawler, PageRank-based indexer, and custom ranking pipeline to search over 1 million web pages.",
+      "url": "",
+      "tech": ["Java", "Spark", "AWS", "Systems design"],
+      "hasUrl": false
     },
     {
       "name": "Gesture Controlled Robot",
@@ -222,13 +220,43 @@
       "hasUrl": true
     },
     {
-      "name": "Distributed File System",
+      "name": "kl-dfs: A Distributed File System",
       "date": "Nov-Dec 2023",
       "description": "A distributed file system that supports file storage, retrieval, deletion, and replication across multiple servers. Uses gRPC for communication between servers and clients.",
       "tech": [
         "Rust", "gRPC", "Protocol Buffers"
       ],
       "url": "https://github.com/liamd101/kl-dfs",
+      "hasUrl": true
+    },
+    {
+      "name": "Scout",
+      "date": "Mar-May 2024",
+      "description": "A web app that aggregates USGS and RIDB trail data to find, plan, and visualize your next outdoor backpacking trip.",
+      "tech": [
+        "Node.js", "React", "MongoDB", "MySQL", "AWS", "ArcGIS"
+      ],
+      "url": "https://github.com/kriyip/Scout",
+      "hasUrl": false
+    },
+    {
+      "name": "Personal Website",
+      "date": "Jan 2024",
+      "description": "A personal website built with Gatsby and hosted with Vercel.",
+      "tech": [
+        "Gatsby", "JS", "HTML/CSS", "graphql"
+      ],
+      "url": "https://github.com/kriyip/personal-website-24",
+      "hasUrl": true
+    },
+    {
+      "name": "Runger",
+      "date": "Apr 2024",
+      "description": "An iOS app designed for fine-grain control over your interval run training. Integrates with the Apple Health app allow users to seamlessly import runs into health app.",
+      "tech": [
+        "Swift", "SwiftUI", "CoreData", "HealthKit"
+      ],
+      "url": "https://github.com/kriyip/runger/",
       "hasUrl": true
     },
     {
@@ -252,24 +280,14 @@
       "hasUrl": true
     },
     {
-      "name": "HTTP Server",
-      "date": "Jan 2024",
-      "description": "Currently a WIP. A multithreaded HTTP server that supports GET, POST, and HEAD requests. Supports persistent connections and pipelining.",
-      "tech": [
-        "Rust", "HTTP"
-      ],
-      "url": "",
-      "hasUrl": false
-    },
-    {
       "name": "Websocket Chatrooms",
       "date": "Dec 2023 - Jan 2024",
       "description": "Currently a WIP. A websocket-based chatroom application that supports multiple chatrooms and private messaging.",
       "tech": [
         "Rust", "Websockets"
       ],
-      "url": "https://github.com/kriyip/websocket-chats",
-      "hasUrl": true
+      "url": "",
+      "hasUrl": false
     }
   ]
 }

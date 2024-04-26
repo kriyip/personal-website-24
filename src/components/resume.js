@@ -127,6 +127,11 @@ const ResumeSection = ({ data }) => {
                             B.S.E Computer Science</span>
                             <span className={styles.container40}>Aug 2021 - May 2025</span>
                         </div>
+                        <div className={styles.flexContainer}>
+                            <span className={styles.container60}>
+                            M.S.E. Computer & Information Science</span>
+                            <span className={styles.container40}>Jan 2024- Dec 2025</span>
+                        </div>
                         GPA: 3.95 of 4.00</span>
                         <br></br>
                         <h4>Relevant Coursework</h4>
@@ -171,10 +176,10 @@ const ResumeSection = ({ data }) => {
                             <li><span className={styles.bold}>Web Development</span>
                                 <ul>
                                     <li>Frontend<br></br>
-                                    <span className={`${styles.italic} ${styles.lightText}`}>HTML, CSS, Gatsby, ReactJS, ReactTs, Bootstrap, TailwindCSS</span>
+                                    <span className={`${styles.italic} ${styles.lightText}`}>HTML, CSS, React, Gatsby, Bootstrap, TailwindCSS</span>
                                     </li>
                                     <li>Backend<br></br>
-                                    <span className={`${styles.italic} ${styles.lightText}`}>node.js, express.js, GraphQL, MongoDB, PostgreSQL, Firebase, gRPC</span></li>
+                                    <span className={`${styles.italic} ${styles.lightText}`}>node.js, express.js, GraphQL, mySQL, MongoDB, neo4j, PostgreSQL, Firebase, gRPC</span></li>
                                 </ul>
                             </li>
 
@@ -183,7 +188,7 @@ const ResumeSection = ({ data }) => {
                             </li>
                             
                             <li><span className={styles.bold}>Cloud</span><br></br>
-                            <span className={styles.lightText}>AWS (Sagemaker, DynamoDB, EC2), Basic virtualization knowledge (Docker, Kubernetes)</span>
+                            <span className={styles.lightText}>AWS (Sagemaker, DynamoDB, EC2, S3), Basic virtualization knowledge (Docker, Kubernetes)</span>
                             </li>
 
                         </ul>
