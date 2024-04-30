@@ -52,7 +52,7 @@ const CustomSection1 = () => {
     return (
     // insert padding at bottom
     <div style={{ paddingBottom: '10rem', paddingTop: '10rem'}}>
-        <div className={styles.narrowContainer} id="contact">
+        <div className={styles.narrowContainer}>
             <div className={`${styles.aboutText} ${styles.center}`}>
                 <span className={styles.sectionNumber}><strong>01. Project Concept</strong></span>
                 <p><br></br>
@@ -61,12 +61,9 @@ const CustomSection1 = () => {
                     There are a few core themes I wanted to explore in this project:
                 </p>
                 <br></br>
-                <ul>
-                    <li><strong>Ritual and Routine: </strong>exploring the gym as a designated ritual that is part of a person's daily routine</li>
-                    <li><strong>Continuous Pursuit of Improvement: </strong>exploring human physical limits, the paradox of neverending improvement, and the continuous effort needed to stay at the top of the competition</li>
-                    <li><strong>Competition: </strong>exploring the motivational and toxic aspects of competition and comparisons</li>
-
-                </ul>
+                    <p><li><strong>Ritual and Routine: </strong>exploring the gym as a sacred ritual that is part of a person's daily routine</li></p>
+                    <p><li><strong>Competition: </strong>exploring the motivational and toxic aspects of competition and comparisons</li></p>
+                    <p><li><strong>Continuous Pursuit of Improvement: </strong>exploring human physical limits, the paradox of neverending improvement, and the continuous effort needed to stay at the top of the competition</li></p>
             </div>
         </div>
     </div>
@@ -76,7 +73,7 @@ const CustomSection1 = () => {
 const CustomSection2 = () => {
     return (
         <div style={{ paddingBottom: '10rem' }}>
-            <div className={styles.narrowContainer} id="contact">
+            <div className={styles.narrowContainer}>
             <div className={`${styles.aboutText} ${styles.center}`}>
                 <span className={styles.sectionNumber}><strong>02. Development Process</strong></span>
                 <p><br></br>
@@ -108,7 +105,7 @@ const CustomSection2 = () => {
 const CustomSection3 = () => {
     return (
         <div style={{ paddingBottom: '10rem' }}>
-            <div className={styles.narrowContainer} id="contact">
+            <div className={styles.narrowContainer}>
             <div className={`${styles.aboutText} ${styles.center}`}>
                 <span className={styles.sectionNumber}><strong>03. Material Choice</strong></span>
                 <p><br></br>
@@ -141,7 +138,7 @@ const CustomSection3 = () => {
 const CustomSection4 = () => {
     return (
         <div style={{ paddingBottom: '10rem' }}>
-            <div className={styles.narrowContainer} id="contact">
+            <div className={styles.narrowContainer}>
             <div className={`${styles.aboutText} ${styles.center}`}>
                 <span className={styles.sectionNumber}><strong>04. Artistic Inspiration & Course Concepts</strong></span>
                 <p><br></br>
@@ -179,7 +176,7 @@ const FinalProject = () => {
                 <div style={{ height: '100vh', width: '50vw', margin: 'auto'}}>
                     <Canvas fog={{ type: 'FogExp2', args: ['#cacaca', 0.1] }}>
                         <Camera />
-                        <OrbitControls maxPolarAngle={Math.PI / 1.5} target={[0, 0, 0]} maxDistance={10} minDistance={1} 
+                        <OrbitControls maxPolarAngle={Math.PI / 1.5} target={[0, 0, 0]} maxDistance={15} minDistance={0.5} 
                             enablePan={true} enableZoom={true} enableRotate={true}/>
                         <ambientLight intensity={0.35} />
                         <pointLight position={[0, 0, 0]} intensity={13} distance={50} />
@@ -195,6 +192,7 @@ const FinalProject = () => {
             </div>
             
             <div className={`${styles.aboutText} ${styles.center}`}>
+            <span className={styles.sectionNumber}>0. Attributions</span>
                 <p><strong>Note: this project uses an external model for the ouroboro</strong></p>
                 <p>"Ouroboros The Calm" (<a href='https://skfb.ly/oCOZT' target="_blank">https://skfb.ly/oCOZT</a>) by tamminen is licensed under Creative Commons Attribution (<a href='http://creativecommons.org/licenses/by/4.0/' target="_blank">http://creativecommons.org/licenses/by/4.0/</a>).</p>
             </div>
