@@ -3,10 +3,9 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const Projects = ({ data }) => {
-
     return (
         <Layout>
-            asdfs
+            Projects
         </Layout>
     )
 }
